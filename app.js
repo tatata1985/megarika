@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 3000;
 
 
 app.get('/',(req,res) => {
-res.send('this is app.js port:%d', PORT);
+res.send('this is app.js port');
 });
 
 app.listen(PORT,()=> {
